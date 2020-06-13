@@ -39,8 +39,7 @@ class RandomizedSet {
         list.add(val);
         map.put(val,list.size() - 1);
         return true;        
-    }
-    
+    }    
     /** Removes a value from the set. Returns true if the set contained the specified element. */
     public boolean remove(int val) {
         if(!map.containsKey(val))         
